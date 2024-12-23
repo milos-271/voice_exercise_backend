@@ -5,7 +5,7 @@ services:
   # Change this to the path containing your Dockerfile
   
   name: voice_exercise_backend
-  runtime: image
+  runtime: docker
 
   # Free plan is not available for private services
   plan: starter
