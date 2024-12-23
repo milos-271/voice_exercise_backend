@@ -53,7 +53,7 @@ async def entrypoint(ctx: JobContext):
     agent.start(ctx.room, participant)
 
     # The agent should be polite and greet the user when it joins :)
-    await agent.say("Hey, how can I help you today?", allow_interruptions=True)
+    await agent.say("Hey, how can I help you today?", allow_interruptions=False)
 
 
 if __name__ == "__main__":
